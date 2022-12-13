@@ -17,4 +17,6 @@ Y agrego otro renderizado condicional, si esta desactivada ademas de ponerse la 
 ![image](https://user-images.githubusercontent.com/72580574/207450238-86e50f0c-bd77-4ebf-b08f-105d7d75c1cf.png)
 
 
+- En **tercer-ejercicio** hago un contador para ver el hook **useState**
+
 ---
