@@ -11,6 +11,14 @@ const Avatar = (params) => {
   `;
 };
 
+// Para ir añadiendo cada avatar
 APP.innerHTML += Avatar({ id: 1, name: "Andrea" });
 APP.innerHTML += Avatar({ id: 2, name: "María" });
 APP.innerHTML += Avatar({ id: 3, name: "Martina" });
+
+// Para que al hacer click cambie entre activo / inactivo
+APP.querySelectorAll("img").forEach(img => {
+  img.addEventListener("click", () => {
+    img.classList.toggle("disabled")
+  })
+})
