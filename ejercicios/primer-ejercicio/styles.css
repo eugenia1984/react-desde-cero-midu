@@ -1,0 +1,16 @@
+
+picture {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100px;
+}
+img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: 0 0 15px #999;
+  width: 100px;
+}
