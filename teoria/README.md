@@ -74,7 +74,9 @@ APP.querySelectorAll("img").forEach(img => {
 
 ## :star: JSX
 
-- Hago el mismo ejercicio, pero esta vez utilizando **JSX**, **props** y **useState**
+- Hago el mismo ejercicio, pero esta vez utilizando **JSX**, **props** y **useState**.
+
+JSX es un pseudolenguaje que transforma a llamadas de JavaScript, no es HTML con JavaScript.
 
 ```JSX
 'use strict';
