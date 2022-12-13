@@ -3,7 +3,7 @@
 const APP = document.getElementById("app");
 const useState = React.useState;
 
-const Avatar = ({ id, name, size }) => {
+const Avatar = ({ id, name = "Unknown", size }) => {
   const [ enabled, setEnabled ] = useState(true);
 
   const src = `https://randomuser.me/api/portraits/women/${id}.jpg`;
@@ -18,12 +18,27 @@ const Avatar = ({ id, name, size }) => {
 
   return (
     <picture>
-      <img 
+      {id?
+      (
+        <img 
         src={src} 
         alt="women"
         className={` ${imgClassName} ${pictureClassName}`}
         onClick={ () => {setEnabled(!enabled)}}
         />
+      )
+      :
+      (
+        <picture>
+        <img 
+        src="https://img.icons8.com/office/80/null/user-female-skin-type-4.png"
+        alt="women"
+        className={` ${imgClassName} ${pictureClassName}`}
+        onClick={ () => {setEnabled(!enabled)}}
+        />
+      </picture> 
+      )
+      }
       <p>{name}</p>
     </picture>
   )
@@ -36,6 +51,8 @@ ReactDOM.createRoot(APP).render(
     <Avatar id={5} name="María"/>
     <Avatar id={6} name="Sol"/>
     <Avatar id={7} name="Luna" size="large"/>
+    <Avatar name="Luisa"/>
+    <Avatar />
   </div>
 )
 
