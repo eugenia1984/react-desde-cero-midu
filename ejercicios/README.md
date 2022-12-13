@@ -10,9 +10,11 @@ Se realizaron los primeros ejercicios, para partir desde HTML, CSS y JavaScript 
 
 Por medio de props modifico el tamaño del avatar (el primero tiene la imagen más chica y el último la más gande, los dos del medio tiene le tamaño por default -el mediano-), asi puede ser más reutilizable.
 
-También se ve el **renderizado condicional**, de no recibir un id va a mostrar el avatar de la mujer
+También se ve el **renderizado condicional**, de no recibir un id va a mostrar el avatar de la mujer.
 
-![image](https://user-images.githubusercontent.com/72580574/207449344-e134c961-665f-44bc-9c63-f1547b057bbd.png)
+Y agrego otro renderizado condicional, si esta desactivada ademas de ponerse la imagen mas transparente no se muestra el nombre.
+
+![image](https://user-images.githubusercontent.com/72580574/207450238-86e50f0c-bd77-4ebf-b08f-105d7d75c1cf.png)
 
 
 ---
