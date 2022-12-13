@@ -14,20 +14,23 @@ En [**teoria**](https://github.com/eugenia1984/react-desde-cero-midu/tree/main/t
 
 En [**ejercicios**](https://github.com/eugenia1984/react-desde-cero-midu/tree/main/ejercicios) se pueden ver algunas de las prácticas
 
+---
+
+## App Giffy
+
+- Dentro de la carpeta **giffy** está la app
 
 ---
 
 ## Tecnologías 🛠️
 
-
-- <img src="https://img.icons8.com/fluency/30/null/html-5.png"/> **HTML5** 
+- <img src="https://img.icons8.com/fluency/30/null/html-5.png"/> **HTML5**
 
 - <img src="https://img.icons8.com/fluency/30/null/css3.png"/> **CSS3**
 
-- <img src="https://img.icons8.com/color/30/null/javascript--v1.png"/> **JavaScript** 
+- <img src="https://img.icons8.com/color/30/null/javascript--v1.png"/> **JavaScript**
 
 - <img src="https://img.icons8.com/officel/30/null/react.png"/> **React**
-
 
 ## Por favor: 🎁
 
@@ -35,13 +38,10 @@ En [**ejercicios**](https://github.com/eugenia1984/react-desde-cero-midu/tree/ma
 - Invita una cerveza 🍺 o un café ☕ a alguien del equipo.
 - Muchas gracias 🤓.
 
-
 ---
 
 ## Notas
 
-
 Agradezco su interés en este proyecto ⌨️ con ❤️ de [María Eugenia Costa](https://github.com/eugenia1984) 😊 y sígueme en [LinkedIn](http://www.linkedin.com/in/maríaeugeniacosta)
 
 ---
-

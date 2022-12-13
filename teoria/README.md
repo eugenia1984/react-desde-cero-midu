@@ -180,3 +180,25 @@ ReactDOM.createRoot(APP).render(
 );
 ```
 ---
+
+## :star: CREATE REACT APP
+
+:tv: -> [https://create-react-app.dev/](https://create-react-app.dev/)
+
+Es de Facebook, no tiene renderizado en el servidor, peor si no necesitas tanto SO, es buena opción para comenzar. Si necesitás algo más complejo tenés **NEXTjs**.
+
+Necesitamos tener instalado **Nodejs** y **npm** (para manejar los paquetes).
+
+``` npx create-react-app giffy``` -> quiero instalar create-react-app y ejecutarla, giffy es el nombre de la app.
+
+Antes se instalaba con npm y de forma gloal, lo que daba inconveneintes con los permisos, por eso en la documentación de React avisan que si lo tenias en global mejor sacarlo.
+
+Y desde el servidor local en el puerto 3000 [http://localhost:3000/](http://localhost:3000/) se puede ver la app corriendo
+
+- **index.js** es el punto de entrada de la aplicación, es lo primero que se carga y después exportamos módulos.
+
+---
+
+## ¿Qué proyecto se crea ?
+
+Basándonos en [https://giphy.com/](https://giphy.com/) vamos a hacer un buscador de giff. Y nos ayudamos con [https://developers.giphy.com/](https://developers.giphy.com/).
