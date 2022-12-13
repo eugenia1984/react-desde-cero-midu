@@ -8,9 +8,9 @@ Se realizaron los primeros ejercicios, para partir desde HTML, CSS y JavaScript 
 
 - En **segundo-ejercicio** basandonos en el primer ejercicio, aplicamos [React](https://reactjs.org/) mediante CDN y hacemos los cambios necesarios. [Link a la documentación de React para agregar React en tu sitio web](https://reactjs.org/docs/add-react-to-a-website.html). Implementaciçon de **Babel** para utilizar **JSX**. Pasamos **props** al componente para determinar el src y el nombre a renderizar. Y se actualiza el **state** con**useState** para cambiar la clase y agregar **disabled** si se hace click para que se desabilite y se saque al volver a hacer click.
 
-Por medio de props modifico el tamaño dle avatar, asi puede ser más reutilizable.
+Por medio de props modifico el tamaño del avatar (el primero tiene la imagen más chica), asi puede ser más reutilizable.
 
-![image](https://user-images.githubusercontent.com/72580574/207432602-79b6fb7f-2a0e-42fc-afb1-3c16fd01659c.png)
+![image](https://user-images.githubusercontent.com/72580574/207440116-bf5260bb-4422-4630-ad40-c9eaf3bac321.png)
 
 
 ---
