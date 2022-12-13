@@ -74,7 +74,7 @@ APP.querySelectorAll("img").forEach(img => {
 
 ## :star: JSX
 
-- Hago el mismo ejercicio, pero esta vez utilizando **JSX**, **props** y **useState**.
+- Hago el mismo ejercicio, pero esta vez utilizando **JSX**, **props** y [**useState**](https://reactjs.org/docs/hooks-reference.html#usestate).
 
 JSX es un pseudolenguaje que transforma a llamadas de JavaScript, no es HTML con JavaScript.
 
@@ -114,3 +114,7 @@ ReactDOM.createRoot(APP).render(
   </div>
 )
 ```
+
+También utilicé **onClick**, uno de los [**eventos sintéticos**](https://reactjs.org/docs/events.html#gatsby-focus-wrapper) y [¿cómo se manejan?](https://reactjs.org/docs/handling-events.html) (  que será luego los [eventHandler](https://beta.reactjs.org/learn/responding-to-events#adding-event-handlers)).
+
+---
