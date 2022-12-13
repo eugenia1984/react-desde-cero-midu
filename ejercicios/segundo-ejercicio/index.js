@@ -29,17 +29,15 @@ const Avatar = ({ id, name = "Unknown", size }) => {
       )
       :
       (
-        <picture>
         <img 
         src="https://img.icons8.com/office/80/null/user-female-skin-type-4.png"
         alt="women"
         className={` ${imgClassName} ${pictureClassName}`}
         onClick={ () => {setEnabled(!enabled)}}
         />
-      </picture> 
       )
       }
-      <p>{name}</p>
+      <p>{enabled ? name : "Deactivated"}</p>
     </picture>
   )
 }
